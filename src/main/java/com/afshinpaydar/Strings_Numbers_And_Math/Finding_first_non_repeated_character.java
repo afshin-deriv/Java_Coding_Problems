@@ -16,7 +16,7 @@ import java.util.Set;
 
 public class Finding_first_non_repeated_character {
 
-    public static String readString() {
+    private static String readString() {
         Scanner s = new Scanner(System.in);
         System.out.print("Please type a string that includes duplicate characters: ");
         String inputString = s.nextLine();

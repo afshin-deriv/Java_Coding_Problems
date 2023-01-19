@@ -12,7 +12,7 @@ import java.util.Set;
  * @since   2023-01-19
  */
 public class CountingDuplicateCharacters {
-    public static String readString() {
+    private static String readString() {
         Scanner s = new Scanner(System.in);
         System.out.print("Please type a string that includes duplicate characters: ");
         String inputString = s.nextLine();
