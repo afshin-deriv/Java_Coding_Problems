@@ -4,6 +4,13 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
+/**
+ * Question: Write a program that counts duplicate characters from a given string
+ *
+ * @author  Afshin Paydar
+ * @version 1.0
+ * @since   2023-01-19
+ */
 public class CountingDuplicateCharacters {
     public static String readString() {
         Scanner s = new Scanner(System.in);
